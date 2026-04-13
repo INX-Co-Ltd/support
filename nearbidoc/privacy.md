@@ -103,7 +103,7 @@ Depending on your jurisdiction (EU/UK under GDPR, California under CCPA/CPRA, Ko
 - **Erasure** — Delete your information. You can delete files, clear app storage, or uninstall the app to remove all local data.
 - **Portability** — Obtain your data in a portable format. The app lets you export documents as Markdown, PDF, DOCX, and HWP.
 - **Withdraw consent** — Revoke permissions (location, Bluetooth, Local Network) in your device settings at any time.
-- **Object / restrict processing** — Contact us at cs@i-nx.com.
+- **Object / restrict processing** — Contact us at [cs@i-nx.com](mailto:cs@i-nx.com).
 - **Lodge a complaint** — You may contact your local data protection authority. In Korea, that is the Personal Information Protection Commission ([pipc.go.kr](https://www.pipc.go.kr)).
 
 Because nearbidoc operates without user accounts or servers, most rights are exercised directly on your device.
@@ -128,7 +128,7 @@ We may update this Privacy Policy from time to time. Material changes will be re
 
 If you have questions about this Privacy Policy, or wish to exercise any of your rights:
 
-- **Email**: cs@i-nx.com
+- **Email**: [cs@i-nx.com](mailto:cs@i-nx.com)
 - **Developer**: INX Company Limited
 
 ## Revision History
