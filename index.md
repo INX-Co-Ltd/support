@@ -2,7 +2,7 @@
 
 If you have any questions or issues, please contact us at:
 
-**cs@i-nx.com**
+**[cs@i-nx.com](mailto:cs@i-nx.com)**
 
 ---
 
