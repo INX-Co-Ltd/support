@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Last Updated: April 10, 2026**
-**Version: 1.1**
+**Last Updated: April 23, 2026**
+**Version: 1.2**
 
 INX Company Limited ("we", "our", "us") operates the NearbiJSX application. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
@@ -9,14 +9,19 @@ NearbiJSX is a **local-first** application for running and managing Claude-gener
 
 ## Information We Collect
 
-### Advertising Identifiers (Device ID / IDFA)
+### Advertising Identifiers and Ad Network Data
 
 - On **iOS and iPadOS**, the free tier of our app displays advertisements through **Google AdMob** and **Unity Ads**. The macOS version does **not** include any advertising SDKs.
-- These third-party ad networks may collect your device's advertising identifier (IDFA) to serve relevant ads and measure ad performance.
-- Before collecting the IDFA, the app will ask for your permission through Apple's App Tracking Transparency (ATT) prompt. You can deny this request at any time.
-- If you deny tracking, ads will still be shown but they will not be personalized.
-- Ad networks also use **SKAdNetwork** for privacy-preserving ad attribution without identifying you personally.
-- **NearbiJSX Pro** (in-app purchase) removes all advertisements.
+- Before any ad-related data is collected, the app asks for your permission through Apple's App Tracking Transparency (ATT) prompt. The ATT request is issued at app launch, before the AdMob and Unity Ads SDKs are initialized. You can deny or restrict this request at any time.
+- When you **grant** ATT authorization, the ad networks may collect and process the following data categories, associated with your advertising identifier, for third-party advertising purposes:
+  - **Device ID** — Apple Advertising Identifier (IDFA) used to deliver and measure personalized ads.
+  - **Product Interaction** — tap timing, ad-request timing, ad impression / dismiss events inside the app, used for frequency capping and targeting.
+  - **Advertising Data** — which ads were shown, which were clicked, viewability metrics, used for reporting and billing.
+- Regardless of ATT state, the ad SDKs also collect the following technical telemetry, **not** used for advertising targeting and **not** linked to your identity:
+  - **Crash Data** — SDK-level crash logs, used only to diagnose and fix issues in the ad SDK.
+  - **Performance Data** — runtime metrics such as execution time, hang rate, and energy usage, used only to improve SDK performance.
+- If you deny or restrict tracking, ads still serve via Apple's **SKAdNetwork** for privacy-preserving attribution, without identifying you personally.
+- **NearbiJSX Pro** (in-app purchase) removes all advertisements and therefore all ad-network data collection described above.
 
 ### Location Data
 
@@ -91,8 +96,8 @@ Because NearbiJSX does not operate its own servers, all network activity flows d
 
 | Service | Provider | Purpose | Data Transferred | When |
 |---|---|---|---|---|
-| Google AdMob | Google LLC (USA) | Advertising (iOS/iPadOS only) | IDFA (if ATT granted), device info, ad interaction | Free-tier users on iOS/iPadOS |
-| Unity Ads | Unity Technologies ApS (Denmark / USA) | Advertising (iOS/iPadOS only) | IDFA (if ATT granted), device info, ad interaction | Free-tier users on iOS/iPadOS |
+| Google AdMob | Google LLC (USA) | Advertising (iOS/iPadOS only) | IDFA (if ATT granted), device info, product interaction, advertising data, SDK crash and performance telemetry | Free-tier users on iOS/iPadOS |
+| Unity Ads | Unity Technologies ApS (Denmark / USA) | Advertising (iOS/iPadOS only) | IDFA (if ATT granted), device info, product interaction, advertising data, SDK crash and performance telemetry | Free-tier users on iOS/iPadOS |
 | Apple WeatherKit | Apple Inc. (USA) | Weather greetings | Coarse location (reduced accuracy) | Only when location permission is granted |
 | Apple iCloud | Apple Inc. (USA) | Optional JSX file sync | JSX files you create | Only if you enable iCloud storage |
 | Apple App Store / StoreKit | Apple Inc. (USA) | In-app purchase processing | Anonymized transaction IDs | When you purchase NearbiJSX Pro |
@@ -133,12 +138,23 @@ Because NearbiJSX operates without user accounts or servers, most rights are exe
 
 NearbiJSX does not engage in automated decision-making, profiling, or any processing that produces legal or similarly significant effects on users. The AI assistance feature, when enabled, produces code and text suggestions for your JSX artifacts; it does not make decisions about you or assign you to any category.
 
-## Privacy Manifest
+## Privacy Manifest and App Store Privacy Details
 
-NearbiJSX includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`) that declares:
-- **Tracking domains**: Ad-related domains used by Google AdMob for ad delivery.
-- **Collected data types**: Device advertising identifier (for ads) and coarse location (for weather).
+NearbiJSX includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`) and declares the following data in App Store Connect's "App Privacy" section:
+
+| Data Type | Purpose | Linked to You | Used to Track You |
+|---|---|---|---|
+| Identifiers — Device ID (IDFA) | Third-Party Advertising | Yes | Yes |
+| Location — Coarse Location | App Functionality (weather greeting) | No | No |
+| Usage Data — Product Interaction | Third-Party Advertising | Yes | Yes |
+| Usage Data — Advertising Data | Third-Party Advertising | Yes | Yes |
+| Diagnostics — Crash Data | App Functionality | No | No |
+| Diagnostics — Performance Data | App Functionality | No | No |
+
+Additional manifest details:
+- **Tracking domains**: Ad-related domains used by Google AdMob and Unity Ads for ad delivery.
 - **Accessed APIs**: UserDefaults, file timestamps, and disk space — used solely for normal app operation.
+- **Location** is handled entirely client-side, passed only to Apple WeatherKit, and never linked to your identity or shared with third parties.
 
 ## Children's Privacy
 
@@ -163,5 +179,6 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.2 | 2026-04-23 | Expanded the Advertising Identifiers section to enumerate every data category collected by Google AdMob and Unity Ads (Device ID, Product Interaction, Advertising Data, Crash Data, Performance Data). Added an App Store Connect privacy-declarations table under Privacy Manifest. Clarified that ATT is requested at launch before ad SDK initialization. Updated Third-Party Services table with the fuller data-transfer description for ad networks. |
 | 1.1 | 2026-04-10 | Added Legal Basis for Processing, Data Retention, Third-Party Services (Subprocessors), International Data Transfers, Your Rights, Automated Decision-Making, Open Source Attribution, and Revision History sections. Clarified that advertising SDKs are iOS/iPadOS-only. Expanded Security and Children's Privacy sections. |
 | 1.0 | 2026-04-06 | Initial Privacy Policy. |
