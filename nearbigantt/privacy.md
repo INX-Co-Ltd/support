@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: June 15, 2026**
+**Last Updated: July 21, 2026**
 **Version: 1.0**
 
 INX Company Limited ("we", "our", "us") operates the NearbiGantt application. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
@@ -48,9 +48,9 @@ NearbiGantt is a **local-first** sticker-based team task management app with a G
 - With your permission, the app uses Apple's Push Notification service (via CloudKit subscriptions) to notify you about shared items, comments, and messages.
 - Notification delivery is handled by Apple. You can disable notifications at any time in your device settings.
 
-### In-App Purchases (Subscription)
+### In-App Purchases
 
-- NearbiGantt offers **NearbiGantt Pro**, an **auto-renewing monthly subscription**, which unlocks unlimited projects, unlimited stickers, multi-project sharing, and cross-device sync.
+- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and stickers, sticker sharing, and chat & comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds sticker descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
 - All purchase and renewal transactions are processed entirely by **Apple's App Store / StoreKit**. We do **not** collect or store any payment information; we receive only anonymized transaction identifiers needed to verify your entitlement on your device.
 
 ## Information We Do NOT Collect
@@ -90,7 +90,7 @@ Because NearbiGantt does not operate its own servers, all network activity flows
 |---|---|---|---|---|
 | Apple iCloud (CloudKit) | Apple Inc. (USA) | Sync and sharing of your projects, stickers, profile, and chats | The content you create / choose to share | Only if you enable iCloud sync or share content |
 | Apple Push Notification service | Apple Inc. (USA) | Delivery of notifications | Notification payloads for shared items, comments, messages | When notifications are enabled |
-| Apple App Store / StoreKit | Apple Inc. (USA) | Subscription processing | Anonymized transaction identifiers | When you subscribe to or restore NearbiGantt Pro |
+| Apple App Store / StoreKit | Apple Inc. (USA) | In-app purchase and subscription processing | Anonymized transaction identifiers | When you buy or restore a NearbiGantt purchase |
 | Apple Calendar (EventKit) | Apple Inc. (USA) | Show/create events in your timeline | Calendar events on your device | Only when Calendar access is granted |
 
 Apple's handling of this data is governed by the [Apple Privacy Policy](https://www.apple.com/privacy/).
@@ -141,4 +141,4 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.0 | 2026-06-15 | Initial Privacy Policy for NearbiGantt. |
+| 1.0 | 2026-07-21 | Initial Privacy Policy for NearbiGantt. |
