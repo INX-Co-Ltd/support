@@ -5,30 +5,30 @@
 
 INX Company Limited ("we", "our", "us") operates the NearbiGantt application. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
-NearbiGantt is a **local-first** sticker-based team task management app with a Gantt timeline, designed for local networks. We do **not** operate any servers that receive your personal information, we do **not** display advertisements, and we do **not** run first-party analytics or crash-reporting SDKs. Your data lives on your own device and, when you enable sync, in **your personal iCloud account** managed by Apple.
+NearbiGantt is a **local-first** team task management app with a Gantt timeline, designed for local networks. We do **not** operate any servers that receive your personal information, we do **not** display advertisements, and we do **not** run first-party analytics or crash-reporting SDKs. Your data lives on your own device and, when you enable sync, in **your personal iCloud account** managed by Apple.
 
 ## Information We Collect
 
 ### Profile Information
 
 - When you set up the app, you provide a **display name** and may optionally add an **email address** and a **profile photo**.
-- This profile information identifies you to teammates with whom you share projects, stickers, or chats.
+- This profile information identifies you to teammates with whom you share projects, tasks, or chats.
 - It is stored on your device and, when iCloud sync is enabled, in your personal iCloud container (`iCloud.com.inx.nearbigantt`). When you share content with a teammate, the profile fields needed to display "who shared this" are included with the shared item.
 - We do **not** receive or store your profile on any server we operate.
 
 ### Content You Create
 
-- Projects, stickers (tasks), to-dos, comments/memos, group-chat messages, and any photos or files you attach are stored on your device and, if you enable iCloud sync, in your personal iCloud container.
-- When you choose to share a project, sticker, or chat with a teammate, the relevant content is synced through Apple's CloudKit sharing or sent directly to nearby devices (see "Local Network Sharing" below). It is never routed through a server we control.
+- Projects, tasks, to-dos, comments/memos, group-chat messages, and any photos or files you attach are stored on your device and, if you enable iCloud sync, in your personal iCloud container.
+- When you choose to share a project, task, or chat with a teammate, the relevant content is synced through Apple's CloudKit sharing or sent directly to nearby devices (see "Local Network Sharing" below). It is never routed through a server we control.
 
 ### iCloud Data (CloudKit)
 
-- If you enable iCloud sync, your projects, stickers, profile, and chats are stored in your personal iCloud container and kept in step across your own devices signed in to the same Apple ID.
+- If you enable iCloud sync, your projects, tasks, profile, and chats are stored in your personal iCloud container and kept in step across your own devices signed in to the same Apple ID.
 - This data is managed entirely by Apple's iCloud service and is encrypted in transit and at rest by Apple. We do **not** have access to your iCloud data.
 
 ### Calendar Access
 
-- With your permission, NearbiGantt reads and creates events in your **Apple Calendar** so they appear alongside your stickers in the timeline.
+- With your permission, NearbiGantt reads and creates events in your **Apple Calendar** so they appear alongside your tasks in the timeline.
 - Calendar data is handled by Apple's EventKit on your device. It is **not** transmitted to us or to any third party.
 - You can grant or revoke Calendar access at any time in your device settings. The app works without it.
 
@@ -38,7 +38,7 @@ NearbiGantt is a **local-first** sticker-based team task management app with a G
 
 ### Local Network Sharing
 
-- NearbiGantt can discover nearby teammates and share stickers and team holidays over the local network using Apple's **MultipeerConnectivity** framework (Bonjour service `_nearbigantt-sh`).
+- NearbiGantt can discover nearby teammates and share tasks and team holidays over the local network using Apple's **MultipeerConnectivity** framework (Bonjour service `_nearbigantt-sh`).
 - The app requests **Local Network** permission to discover and connect with nearby devices.
 - All communication happens **directly between nearby devices** and is **not routed through any external server**.
 - To avoid creating duplicate entries when the same person uses more than one device, the app broadcasts a one-way **SHA-256 hash** of your iCloud account identifier over the local network. This hash is not reversible to your identity and is used only for de-duplication.
@@ -50,7 +50,7 @@ NearbiGantt is a **local-first** sticker-based team task management app with a G
 
 ### In-App Purchases
 
-- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and stickers, sticker sharing, and chat & comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds sticker descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
+- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and tasks, task sharing, and chat & comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds task descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
 - All purchase and renewal transactions are processed entirely by **Apple's App Store / StoreKit**. We do **not** collect or store any payment information; we receive only anonymized transaction identifiers needed to verify your entitlement on your device.
 
 ## Information We Do NOT Collect
@@ -71,7 +71,7 @@ Under the EU General Data Protection Regulation (GDPR) and the Korean Personal I
 
 ## Data Retention
 
-- **Projects, stickers, profile, chats, settings, and preferences** are retained on your device (and, if you opt in, your personal iCloud container) until you delete them. We have no ability to delete or access this data on our end.
+- **Projects, tasks, profile, chats, settings, and preferences** are retained on your device (and, if you opt in, your personal iCloud container) until you delete them. We have no ability to delete or access this data on our end.
 - The app provides a **"Reset to First Launch"** option that erases every entity and app preference on the device; these deletions also propagate to your iCloud container so your own devices converge.
 - **Calendar events** you create through the app remain in your Apple Calendar until you remove them there.
 
@@ -88,7 +88,7 @@ Because NearbiGantt does not operate its own servers, all network activity flows
 
 | Service | Provider | Purpose | Data Transferred | When |
 |---|---|---|---|---|
-| Apple iCloud (CloudKit) | Apple Inc. (USA) | Sync and sharing of your projects, stickers, profile, and chats | The content you create / choose to share | Only if you enable iCloud sync or share content |
+| Apple iCloud (CloudKit) | Apple Inc. (USA) | Sync and sharing of your projects, tasks, profile, and chats | The content you create / choose to share | Only if you enable iCloud sync or share content |
 | Apple Push Notification service | Apple Inc. (USA) | Delivery of notifications | Notification payloads for shared items, comments, messages | When notifications are enabled |
 | Apple App Store / StoreKit | Apple Inc. (USA) | In-app purchase and subscription processing | Anonymized transaction identifiers | When you buy or restore a NearbiGantt purchase |
 | Apple Calendar (EventKit) | Apple Inc. (USA) | Show/create events in your timeline | Calendar events on your device | Only when Calendar access is granted |
@@ -120,7 +120,7 @@ Additional manifest details:
 - **Tracking**: None. No advertising identifiers, no tracking domains.
 - **Accessed APIs**: UserDefaults — used solely for normal app operation (storing your preferences and the widget's shared snapshot within the app's App Group).
 
-Any contact, identifier, or user-content data the app handles (e.g., your profile or stickers) stays in your own iCloud account and is not collected by us.
+Any contact, identifier, or user-content data the app handles (e.g., your profile or tasks) stays in your own iCloud account and is not collected by us.
 
 ## Children's Privacy
 
