@@ -32,6 +32,10 @@ NearbiGantt is a **local-first** team task management app with a Gantt timeline,
 - Calendar data is handled by Apple's EventKit on your device. It is **not** transmitted to us or to any third party.
 - You can grant or revoke Calendar access at any time in your device settings. The app works without it.
 
+### Public Holidays
+
+- To show public holidays on your timeline, NearbiGantt uses your device's own system holiday calendar where available. For a region your device does not cover, it fetches holiday dates from a third-party public API (Nager.Date, `date.nager.at`). Only a **country/region code and a year** are sent — never your personal data, identifiers, or content. You can turn holiday display off in Settings.
+
 ### Photos
 
 - When you choose a profile photo or attach an image, the app uses Apple's system photo picker. Only the specific image you select is imported into the app — we do **not** access your photo library otherwise, and the app does **not** request full photo-library permission.
@@ -84,7 +88,7 @@ Under the EU General Data Protection Regulation (GDPR) and the Korean Personal I
 
 ## Third-Party Services (Subprocessors)
 
-Because NearbiGantt does not operate its own servers, all network activity flows directly from your device to Apple's services. The following services may receive data from your device when you use the corresponding feature:
+Because NearbiGantt does not operate its own servers, network activity flows directly from your device to Apple's services — with one exception: a third-party public API used to display regional public holidays (see below). The following services may receive data from your device when you use the corresponding feature:
 
 | Service | Provider | Purpose | Data Transferred | When |
 |---|---|---|---|---|
@@ -92,12 +96,13 @@ Because NearbiGantt does not operate its own servers, all network activity flows
 | Apple Push Notification service | Apple Inc. (USA) | Delivery of notifications | Notification payloads for shared items, comments, messages | When notifications are enabled |
 | Apple App Store / StoreKit | Apple Inc. (USA) | In-app purchase and subscription processing | Anonymized transaction identifiers | When you buy or restore a NearbiGantt purchase |
 | Apple Calendar (EventKit) | Apple Inc. (USA) | Show/create events in your timeline | Calendar events on your device | Only when Calendar access is granted |
+| Nager.Date (`date.nager.at`) | Nager.Date (third-party public API) | Public holiday dates for a region | A country/region code and a year — **no** personal data, identifiers, or content | When holiday display is on for a region your device's system calendar does not already cover |
 
 Apple's handling of this data is governed by the [Apple Privacy Policy](https://www.apple.com/privacy/).
 
 ## International Data Transfers
 
-NearbiGantt is distributed worldwide. When you use iCloud, push notifications, or in-app purchases, data may be processed by Apple in the United States and other jurisdictions where Apple operates its infrastructure. We do not transfer your data to any party other than Apple's services described above.
+NearbiGantt is distributed worldwide. When you use iCloud, push notifications, or in-app purchases, data may be processed by Apple in the United States and other jurisdictions where Apple operates its infrastructure. Other than Apple's services described above, the only external request is to the public holiday API (Nager.Date), which receives a country/region code and a year — never your personal data or content.
 
 ## Your Rights
 
