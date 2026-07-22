@@ -50,7 +50,7 @@ NearbiGantt is a **local-first** team task management app with a Gantt timeline,
 
 ### In-App Purchases
 
-- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and tasks, task sharing, and chat & comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds task descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
+- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and tasks, task sharing, and comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds chat message writing, task descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
 - All purchase and renewal transactions are processed entirely by **Apple's App Store / StoreKit**. We do **not** collect or store any payment information; we receive only anonymized transaction identifiers needed to verify your entitlement on your device.
 
 ## Information We Do NOT Collect
