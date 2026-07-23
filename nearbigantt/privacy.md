@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Last Updated: July 21, 2026**
-**Version: 1.0**
+**Last Updated: July 23, 2026**
+**Version: 1.1**
 
 INX Company Limited ("we", "our", "us") operates the NearbiGantt application. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
@@ -20,6 +20,7 @@ NearbiGantt is a **local-first** team task management app with a Gantt timeline,
 
 - Projects, tasks, to-dos, comments/memos, group-chat messages, and any photos or files you attach are stored on your device and, if you enable iCloud sync, in your personal iCloud container.
 - When you choose to share a project, task, or chat with a teammate, the relevant content is synced through Apple's CloudKit sharing or sent directly to nearby devices (see "Local Network Sharing" below). It is never routed through a server we control.
+- Chat message text is stored **unencrypted** by NearbiGantt (it relies on Apple's iCloud encryption in transit and at rest, not an additional end-to-end layer). Once a message or shared item is delivered, a copy exists in your teammate's device and iCloud — so, as with email or any messaging app, deleting your own copy or resetting your device does not remove the copy already delivered to them. Ask your teammate to delete their copy if you need it removed on their side.
 
 ### iCloud Data (CloudKit)
 
@@ -146,4 +147,5 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.1 | 2026-07-23 | Clarified that chat message text is stored unencrypted (no additional end-to-end layer) and that a delivered copy persists on the recipient's device and iCloud beyond the sender's deletion. |
 | 1.0 | 2026-07-21 | Initial Privacy Policy for NearbiGantt. |
