@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Last Updated: July 23, 2026**
-**Version: 1.1**
+**Last Updated: July 24, 2026**
+**Version: 1.2**
 
 INX Company Limited ("we", "our", "us") operates the NearbiGantt application. This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
@@ -55,7 +55,7 @@ NearbiGantt is a **local-first** team task management app with a Gantt timeline,
 
 ### In-App Purchases
 
-- NearbiGantt offers two optional in-app purchases: **NearbiGantt Unlimited**, a **one-time purchase** that unlocks unlimited projects and tasks, task sharing, and comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds chat message writing, task descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
+- NearbiGantt offers two optional in-app purchases: **NearbiGantt Package**, a **one-time purchase** that unlocks unlimited projects and tasks, task sharing, and comment writing; and **NearbiGantt Pro Monthly**, an **auto-renewing monthly subscription** that adds chat message writing, task descriptions and parent issues, photo and file attachments, encrypted backup & restore, and data export. The app is free to use with a basic tier.
 - All purchase and renewal transactions are processed entirely by **Apple's App Store / StoreKit**. We do **not** collect or store any payment information; we receive only anonymized transaction identifiers needed to verify your entitlement on your device.
 
 ## Information We Do NOT Collect
@@ -147,5 +147,6 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.2 | 2026-07-24 | Renamed the one-time in-app purchase from "NearbiGantt Unlimited" to "NearbiGantt Package" (display name only; the product itself and its App Store identifier are unchanged). |
 | 1.1 | 2026-07-23 | Clarified that chat message text is stored unencrypted (no additional end-to-end layer) and that a delivered copy persists on the recipient's device and iCloud beyond the sender's deletion. |
 | 1.0 | 2026-07-21 | Initial Privacy Policy for NearbiGantt. |
