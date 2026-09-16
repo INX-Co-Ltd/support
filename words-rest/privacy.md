@@ -147,3 +147,4 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | 2026-09-16 | Initial Privacy Policy for Words-Rest (문장의 숲). |
+| 1.1 | 2026-09-16 | App Store privacy label stated as "Data Not Collected"; the Privacy Manifest declares no collected data types (location is processed by Apple system services in real time only). Data flows unchanged. |
