@@ -3,9 +3,9 @@
 **Last Updated: September 16, 2026**
 **Version: 1.0**
 
-INX Company Limited ("we", "our", "us") operates the Textuary application (Korean title: 문장의 숲). This Privacy Policy explains how we collect, use, and protect your information when you use our app.
+INX Company Limited ("we", "our", "us") operates the Words-Rest application (Korean title: 문장의 숲). This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
-Textuary is a **local-first** app for photographing a sentence you met in a book, a film, or on the street and keeping just that sentence as a paper clipping. Text recognition runs **on your device** using Apple's Vision framework. We do **not** operate any servers that receive your personal information, we do **not** display advertisements, and we do **not** run any analytics or crash-reporting SDKs. Your photos and sentences live on your own device and — only if you turn the option on — in **your personal iCloud account** managed by Apple. The app has no user accounts.
+Words-Rest is a **local-first** app for photographing a sentence you met in a book, a film, or on the street and keeping just that sentence as a paper clipping. Text recognition runs **on your device** using Apple's Vision framework. We do **not** operate any servers that receive your personal information, we do **not** display advertisements, and we do **not** run any analytics or crash-reporting SDKs. Your photos and sentences live on your own device and — only if you turn the option on — in **your personal iCloud account** managed by Apple. The app has no user accounts.
 
 This policy covers the iOS app. (An Android version is planned; it will carry its own notices when released.)
 
@@ -77,7 +77,7 @@ Under the EU General Data Protection Regulation (GDPR) and the Korean Personal I
 
 ## Third-Party Services (Subprocessors)
 
-Because Textuary does not operate its own servers, all network activity flows directly from your device to Apple's services. The following services may receive data from your device when you use the corresponding feature:
+Because Words-Rest does not operate its own servers, all network activity flows directly from your device to Apple's services. The following services may receive data from your device when you use the corresponding feature:
 
 | Service | Provider | Purpose | Data Transferred | When |
 |---|---|---|---|---|
@@ -91,7 +91,7 @@ Apple's handling of this data is governed by the [Apple Privacy Policy](https://
 
 ## International Data Transfers
 
-Textuary is distributed worldwide. When you use weather, capture place, or iCloud, data may be processed by Apple in the United States and other jurisdictions where Apple operates its infrastructure. We do not transfer your data to any party other than Apple's services described above.
+Words-Rest is distributed worldwide. When you use weather, capture place, or iCloud, data may be processed by Apple in the United States and other jurisdictions where Apple operates its infrastructure. We do not transfer your data to any party other than Apple's services described above.
 
 ## Your Rights
 
@@ -105,15 +105,15 @@ Depending on your jurisdiction (EU/UK under GDPR, California under CCPA/CPRA, Ko
 - **Object / restrict processing** — Contact us at [cs@i-nx.com](mailto:cs@i-nx.com).
 - **Lodge a complaint** — You may contact your local data protection authority. In Korea, that is the Personal Information Protection Commission ([pipc.go.kr](https://www.pipc.go.kr)).
 
-Because Textuary operates without user accounts or servers, most rights are exercised directly on your device.
+Because Words-Rest operates without user accounts or servers, most rights are exercised directly on your device.
 
 ## Automated Decision-Making
 
-Textuary does not engage in automated decision-making, profiling, or any processing that produces legal or similarly significant effects on users. On-device text recognition only proposes sentences found in the photo you chose; it makes no decisions about you.
+Words-Rest does not engage in automated decision-making, profiling, or any processing that produces legal or similarly significant effects on users. On-device text recognition only proposes sentences found in the photo you chose; it makes no decisions about you.
 
 ## Privacy Manifest and App Store Privacy Details
 
-Textuary includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`) and declares the following data in App Store Connect's "App Privacy" section:
+Words-Rest includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`) and declares the following data in App Store Connect's "App Privacy" section:
 
 | Data Type | Purpose | Linked to You | Used to Track You |
 |---|---|---|---|
@@ -127,11 +127,11 @@ Your photos, recognized text, notes, and placements stay on your device and, if 
 
 ## Children's Privacy
 
-Textuary does not knowingly collect any personal information from children under the age of 14 (Korean standard), 13 (US COPPA standard), or 16 (EU GDPR standard, depending on member state). If you believe a child has provided information through our app, please contact us and we will assist where possible.
+Words-Rest does not knowingly collect any personal information from children under the age of 14 (Korean standard), 13 (US COPPA standard), or 16 (EU GDPR standard, depending on member state). If you believe a child has provided information through our app, please contact us and we will assist where possible.
 
 ## Open Source Attribution
 
-The iOS version of Textuary is built only on Apple's system frameworks and contains no third-party code.
+The iOS version of Words-Rest is built only on Apple's system frameworks and contains no third-party code.
 
 ## Changes to This Policy
 
@@ -148,4 +148,4 @@ If you have questions about this Privacy Policy, or wish to exercise any of your
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.0 | 2026-09-16 | Initial Privacy Policy for Textuary (문장의 숲). |
+| 1.0 | 2026-09-16 | Initial Privacy Policy for Words-Rest (문장의 숲). |
