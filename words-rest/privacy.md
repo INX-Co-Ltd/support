@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Last Updated: September 16, 2026**
-**Version: 1.0**
+**Version: 1.1**
 
 INX Company Limited ("we", "our", "us") operates the Words-Rest application (Korean title: 문장의 숲). This Privacy Policy explains how we collect, use, and protect your information when you use our app.
 
@@ -113,11 +113,9 @@ Words-Rest does not engage in automated decision-making, profiling, or any proce
 
 ## Privacy Manifest and App Store Privacy Details
 
-Words-Rest includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`) and declares the following data in App Store Connect's "App Privacy" section:
+Words-Rest includes an Apple Privacy Manifest (`PrivacyInfo.xcprivacy`). Its App Store "App Privacy" label is **Data Not Collected**.
 
-| Data Type | Purpose | Linked to You | Used to Track You |
-|---|---|---|---|
-| Location — Coarse Location | App Functionality (weather decoration, capture place) | No | No |
+Why: Apple defines "collection" as data transmitted off the device that the developer or its third parties can access beyond the time needed to serve the request in real time. We operate no servers and include no third-party SDKs, so there is nothing we or a third party can access. Your approximate location is sent to Apple's WeatherKit and MapKit only so that those iOS system services can answer a real-time request (current weather, place name); we receive only the answer. Apple's own processing is governed by Apple's privacy policy. Your photos, text, notes and places stay on your device and, if you enable it, in your own iCloud account, which we cannot read.
 
 Additional manifest details:
 - **Tracking**: None. No advertising identifiers, no tracking domains.
